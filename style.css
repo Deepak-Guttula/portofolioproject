@@ -1,0 +1,159 @@
+x
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bar {
+
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+.navigation{
+    margin-left:200px;
+}
+#logo {
+    margin-left: 20px; 
+    margin-right: 100px;
+    font-size: x-large; 
+}
+
+.bar ul {
+    margin-top:5px;
+    list-style-type: none;
+    display: flex; 
+}
+
+.bar ul li {
+    margin-right: 20px; 
+}
+
+.bar ul li a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px; 
+}
+
+.bar ul li a:hover {
+    color: #ccc;
+}
+
+#home {
+    text-align: center;
+    padding: 120px 50px; 
+    background-color: #fff;
+    margin-top: 70px; 
+
+    
+}
+
+
+#bio {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+#bio article {
+    text-align: justify;
+}
+
+.link-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.link-button:hover {
+    background-color: #555;
+}
+
+/* Portfolio section styles */
+#portfolio {
+    padding: 50px;
+    background-color: #fff;
+}
+
+.port-div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.port-div article {
+    flex-basis: calc(33.33% - 20px);
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.small-icon {
+    width: 50px;
+    height: 50px;
+}
+
+
+#skills {
+    padding: 50px;
+    background-color: #f9f9f9;
+    margin: ;
+}
+
+.skill {
+    display: flex;
+    justify-content: space-between;
+}
+
+.techskill ul,
+.languageskill ul {
+    list-style-type: none;
+}
+.languageskill {
+    list-style-type: none;
+    margin-right: 800px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+span{
+    color: red;
+}
+.large-icon {
+    width: 200px; 
+    height: auto; 
+    margin-bottom: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    margin-left: 10px;
+}
+footer img {
+    width: 20px; 
+    height: 20px; 
+    background-color: #f9f9f9;
+    border-radius: 10%;
+}
